@@ -29,13 +29,15 @@ h2 {
 
 img {
     padding: 20px;
+    margin-top: 20px;
 }
 
 .container {
     border-style: solid;
     border-color: #90D7FF;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 90px;
+    margin-right: 150px;
+    font-size: larger;
 
 }
 
@@ -52,13 +54,13 @@ img {
     color: white;
     cursor: pointer;
     padding: 18px;
-    width: 90%;
+    width: 86.5%;
     border: none;
     text-align: center;
     outline: none;
-    font-size: 15px;
-    padding-left: 20px;
-
+    font-size: 25px;
+    margin-left: 90px;
+    margin-bottom: -5px;
 }
   
   .active, .collapsible:hover {
@@ -70,6 +72,19 @@ img {
     padding: 0 18px;
     display: none;
     overflow: hidden;
-    background-color: lavender;
-    width: 600px;
+    background-color: white;
+    border-style: solid;
+    border-color: #90D7FF;
+    width: 84.1%;
+    margin-left: 90px;
+  }
+
+  .projects {
+      list-style-type: none;
+      font-size: 20px;
+      text-align: center;
+  }
+
+  .projects li {
+      margin-bottom: 20px;
   }
