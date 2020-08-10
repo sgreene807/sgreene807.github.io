@@ -8,6 +8,7 @@
   grid-template-columns: 600px 800px;
   grid-template-rows: 250px 250px 250px;
   justify-content: center;
+  box-sizing: border-box;
 }
 
 .item-1 {
