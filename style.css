@@ -1,11 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans&display=swap");
 
-a {
+.links {
     color: #90D7FF;
     text-decoration: none;
 }
 
-a:visited {
+.links:link {
+    text-decoration: none;
+    color: #90D7FF;
+}
+
+.links:visited {
+    text-decoration: none;
     color: #90D7FF;
 }
 
@@ -28,18 +34,18 @@ h2 {
     padding: 50px;
 }
 
-img {
+.img {
     padding: 20px;
     margin-top: 20px;
+    width: 90%;
+    border-radius: 60%;
 }
 
 .container {
-    border-style: solid;
-    border-color: #90D7FF;
     margin-left: 90px;
     margin-right: 150px;
     font-size: larger;
-
+    width: 90%;
 }
 
 .heading {
@@ -49,26 +55,6 @@ img {
     color: #273469;
 }
 
-.collapsible {
-    margin: 20px;
-    background-color: #90D7FF;
-    color: white;
-    cursor: pointer;
-    padding: 18px;
-    width: 86.5%;
-    border: none;
-    text-align: center;
-    outline: none;
-    font-size: 25px;
-    margin-left: 90px;
-    margin-bottom: -5px;
-}
-  
-  .active, .collapsible:hover {
-    border-style: solid;
-    border-color: #90D7FF;
-  }
-  
   .content {
     padding: 0 18px;
     display: none;
@@ -89,3 +75,19 @@ img {
   .projects li {
       margin-bottom: 20px;
   }
+  
+  .nav {
+      color: #273469;
+      text-decoration: none;
+  }
+
+  .project-name {
+      color: #273469;
+      text-decoration: underline;
+  }
+
+  .project-name:visited {
+      color: #273469;
+  }
+
+  
